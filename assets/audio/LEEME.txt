@@ -1,0 +1,2 @@
+Poné acá el sonido de rim de los ritmos con el nombre  rim.wav  (también sirve rim.mp3 o rim.ogg).
+Los audios de la Sección 3 van en la subcarpeta  cualidades.
