@@ -6,6 +6,7 @@ const SEC=[['ritmos','1 · Ritmo con partitura analógica','Escuchá cada ritmo 
 const app=document.getElementById('app'),nav=document.getElementById('nav');
 const inicio={montar(r){r.innerHTML=`<h2>Evaluación de música</h2>
  <p class="aviso">✍️ Tené a mano una hoja en blanco con tu nombre. En esta pantalla solo escuchás: las respuestas se completan en la hoja. Usá auriculares o un buen parlante.</p>
+ <p class="aviso">📅 La entrega del trabajo es el 30/11, en clase.</p>
  <div class="niveles">${SEC.map(([id,t,d])=>`<a class="nivel" href="#/${id}"><b>${t}</b><span>${d}</span></a>`).join('')}</div>`;},destruir(){}};
 let act=null;
 function ir(){const id=location.hash.replace('#/','');
